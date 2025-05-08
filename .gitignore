@@ -1,0 +1,154 @@
+# ========== Custom Project Folders ==========
+src/staticfiles/vendors/
+local-cdn/
+
+# ========== Operating System / Editor ==========
+.DS_Store
+.vscode-test/
+.idea/
+
+# ========== Python General ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.installed.cfg
+.Python
+*.manifest
+*.spec
+
+# ========== Build / Distribution / Packaging ==========
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# ========== Environments / Dependency Managers ==========
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+.python-version
+
+# ========== Logs / Reports ==========
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.dmypy.json
+dmypy.json
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ========== Testing / Coverage ==========
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+# ========== Databases / Django / Flask ==========
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+instance/
+.webassets-cache/
+*.log
+
+# ========== Scrapy ==========
+.scrapy/
+
+# ========== Documentation ==========
+docs/_build/
+.pybuilder/
+target/
+
+# ========== Jupyter / IPython ==========
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ========== IDE / Tools ==========
+.spyderproject
+.spyproject
+.ropeproject
+
+# ========== Celery ==========
+celerybeat-schedule
+celerybeat.pid
+
+# ========== SageMath ==========
+*.sage.py
+
+# ========== Node.js / JavaScript / Frontend ==========
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+lib-cov/
+build/Release
+*.tgz
+*.tsbuildinfo
+.pnp.*
+.pnpm-debug.log*
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.nyc_output/
+.grunt/
+.lock-wscript
+.parcel-cache/
+.cache/
+.next/
+out/
+.nuxt/
+dist/
+.vuepress/dist/
+.temp/
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
